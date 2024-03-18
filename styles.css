@@ -1,0 +1,190 @@
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+     margin-left: 190px;
+     padding: 0px;
+     font-family: 'Times New Roman', sans-serif;
+}
+
+
+header {
+    display: none;
+}
+
+
+header {
+    display: block;
+    background: linear-gradient(to bottom, #007bff, #18191A);
+    color: white;
+    padding: 17px;
+    margin-bottom: -20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-info {
+    margin-left: 185px;
+}
+
+.header-icons {
+    display: flex;
+}
+
+.header-icons a {
+    font-size: 30px;
+    position: 100px;
+
+}
+
+.header-icons a img {
+    width: 30px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.header-icons a:hover img {
+    filter: brightness(75%);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.Skyline {
+
+
+    background-image: url('https://vastphotos.com/files/uploads/photos/10736/dallas-skyline-panorama-photo-l.jpg?v=20220712073521'); /* Path to your skyline image */
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 35px -35px;
+    padding: 150px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+}
+
+h3 {
+    font-size: 18px;
+    font-style: normal;
+    margin: 0;
+}
+
+
+.experience h2 {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-weight: bold;
+    background-color: #18191A;
+}
+
+.education h2 {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-weight: bold;
+    background-color: #18191A;
+}
+
+.skills h2 {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-weight: bold;
+    background-color: #18191A;
+}
+
+.involvement h2 {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-weight: bold;
+    background-color: #18191A;
+}
+
+.accomplishments h2 {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-weight: bold;
+    background-color: #18191A;
+}
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 190px;
+            height: 100%;
+            background-color: black;
+            padding-top: 20px;
+            overflow-y: auto;
+            z-index: 999;
+        }
+
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li:hover {
+        background-color: #666;
+        transition: background-color 0.025s ease;
+        }
+
+        nav ul li {
+            padding: 10px;
+            border-bottom: 1px solid #666;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+.news-ticker {
+    position: fixed;
+    top: 75px;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    padding: 25px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: ticker-animation 10s linear infinite;
+}
+
+@keyframes ticker-animation {
+    100% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
